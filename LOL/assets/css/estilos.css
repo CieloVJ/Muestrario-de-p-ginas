@@ -1,0 +1,39 @@
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 2em auto;
+  font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+.container > div {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #cfe8dc;
+  border: 2px solid #4fb9e3;
+  text-align: center;
+}
+img {
+  width: 200px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  body{
+    background-color: lightgreen;
+  }
+
+  .container > div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #d7e8cf;
+    border: 2px solid #167c2d;
+    text-align: center;
+  }
+}

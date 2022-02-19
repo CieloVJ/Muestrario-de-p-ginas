@@ -1,0 +1,26 @@
+body{font-family: sans-serif;}
+/*nav{outline: 1px solid yellow;}*/
+ul{
+    /*outline: 1px solid blue;*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    line-height: 48px;
+    overflow: auto;
+}
+li{
+    /*outline: 1px solid red;*/
+    width: 100px;
+    float: left;
+    text-align: center;
+    /*display: inline-block en vez de float;*/
+}
+a{
+    /*outline: 1px solid green;*/
+    /*Para calcular espacios :3*/
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+a:hover{background: orange;}

@@ -1,0 +1,25 @@
+body{font-family: sans-serif;}
+.biography{
+    /*background-color: red;*//*similar a background*/
+    width: 65%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.resumen{
+    /*background-color: green;*/
+    display: inline-block;
+    vertical-align: top;
+}
+.tabla-resumen{
+    /*black y honeydew*/
+    border: 1px solid #a2a2a2;
+    background-color: #f8f8f8;
+}
+.tabla-resumen thead th{
+    /*lightblue*/
+    background-color: #B8C4DE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tabla-resumen tbody tr:first-child{text-align: center;}
